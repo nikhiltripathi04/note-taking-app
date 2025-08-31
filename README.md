@@ -2,6 +2,11 @@ Full Stack Note-Taking Application
 Project Overview
 This is a full-stack note-taking application built with the MERN stack (MongoDB, Express, React, Node.js). The application is designed to be a secure and user-friendly platform where individuals can register, authenticate, and manage their personal notes. The project adheres to a modern, responsive design and utilizes a JSON Web Token (JWT) for secure, session-based authorization.
 
+Live Application Links
+Frontend: https://note-taking-app-three-henna.vercel.app/
+
+Backend: https://note-taking-app-1-b0bt.onrender.com
+
 Features
 User Authentication: The application supports user registration and sign-in via an email and a one-time password (OTP) flow. It is also prepared for authentication through a Google account.
 
@@ -20,7 +25,7 @@ Frontend: ReactJS with TypeScript
 
 Backend: Node.js with Express and TypeScript
 
-Database: MongoDB
+Database: MongoDB, MySQL, or PostgreSQL
 
 Authentication: JWT, bcryptjs, and the Google OAuth library
 
@@ -66,6 +71,3 @@ VITE_GOOGLE_CLIENT_ID=your_google_client_id
 Start the frontend development server: npm run dev
 
 The application will be accessible at http://localhost:5173.
-
-Deployment
-The project is structured for easy deployment. The backend can be deployed to a cloud platform such as Render or Heroku, while the frontend can be hosted on a service like Vercel or Netlify. Proper configuration of environment variables on the hosting platform is required.
